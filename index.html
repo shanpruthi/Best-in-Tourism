@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="full">
+  <head>
+    <title>Best in Town - HackPrinceton 2015</title>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- React JS -->
+    <script src="https://fb.me/react-with-addons-0.14.2.js"></script>
+    <script src="bower_components/react/JSXTransformer.js"></script>
+
+    <!-- Firebase JS -->
+    <script src="bower_components/firebase/firebase.js"></script>
+
+    <!-- ReactFireMixin -->
+    <script src="bower_components/reactfire/dist/reactfire.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/custombootstrap.css" />
+    
+    <!-- Custom JS and CSS-->
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/twitlocate.js"></script>
+  </head>
+
+  <body>
+    <div class="container" >
+      <!-- Top Navigation -->
+      <header>
+        <h1>BiT<span>Find the best in tourism.</span></h1>
+      </header>
+      <div class="main clearfix">
+        <!-- Optional columns for small components -->
+        <div class="column">
+          <p>Search for a city and see the most popular attractions and tweets about them in the area. </p>
+          <p><a href="http://www.github.com/shanpruthi" target="blank">View Code Source</a></p>
+        </div>
+        <div class="column">
+          <div id="sb-search" class="sb-search">
+            <form>
+              <input class="sb-search-input" placeholder="Enter a city..." type="text" value="" name="search" id="search">
+              <input class="sb-search-submit" type="submit" value="">
+              <span class="sb-icon-search"></span>
+            </form>
+          </div>
+          <h6 id="hidden">Unfortunately, we do not offer statistics for that city.</h6>
+        </div>
+      </div>
+        <!--tweet sectoin-->
+        <div id="tweetcontainer" class="col-md-12">
+          <div class="col-md-6 col-sm-12 col-lg-6 tweetside">
+            <h3>Tweets from your city about local attractions</h3><hr>
+            <a id="tweetsection">...</a>
+          </div>
+          <div class="col-md-1 col-sm-0 col-lg-1"></div>
+          <div class="col-md-5 col-sm-12 col-lg-5 chartside">
+            <h3>Data Visualization of Best City Attractions</h3>
+            <a id="d3chart">..</a>
+          </div>
+        </div>
+    </div><!-- /container -->
+    <div class="about">
+        <h1>What makes BiT so powerful?</h1>
+        <p>BiT uses the best of Twitter's streaming and REST APIs, in association with NodeJS and FireBase to create an optimal environment for users to see the most exciting attractions in real time, as well as the most popular locations in the past few hours (based on favourites, retweets, and tweets).</p>
+    </div>
+    
+
+  <script src="js/classie.js"></script>
+    <script src="js/uisearch.js"></script>
+    <script>
+      new UISearch( document.getElementById( 'sb-search' ) );
+    </script>
+  </body>
+</html>

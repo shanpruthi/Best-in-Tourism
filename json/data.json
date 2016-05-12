@@ -1,0 +1,6 @@
+{
+  "toronto": { "val1":"CN Tower", "val2":"Royal Ontario Museum", "val3":"Toronto Zoo", "val4":"Art Gallery of Ontario", "val5":"Ripley's Aquarium"},
+  "newyork": { "val1":"Empire State Building", "val2":"Central Park", "val3":"Statue of Liberty", "val4":"Rockefeller Center", "val5":"Metropolitan Museum"},
+  "sanfran": { "val1":"Golden Gate Bridge", "val2":"Alcatraz Island", "val3":"Fisherman's Wharf", "val4":"Chinatown", "val5":"AT&T Park"},
+  "london": { "val1":"Tower Bridge", "val2":"London Eye", "val3":"Buckingham Palace", "val4":"Madame Tussauds London", "val5":"Big Ben"}
+}

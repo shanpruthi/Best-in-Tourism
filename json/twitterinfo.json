@@ -1,0 +1,6 @@
+{
+  "toronto": { "CN Tower": , "Royal Ontario Museum": , "Toronto Zoo": , "Art Gallery of Ontario": , "Ripley's Aquarium": },
+  "newyork": { "Empire State Building": , "Central Park": , "Statue of Liberty": , "Rockefeller Center": , "Metropolitan Museum": },
+  "sanfran": { "Golden Gate Bridge": , "Alcatraz Island": , "Fisherman's Wharf": , "Chinatown": , "AT&T Park": },
+  "london": { "Tower Bridge": , "London Eye": , "Buckingham Palace": , "Madame Tussauds London": , "Big Ben": }
+}
